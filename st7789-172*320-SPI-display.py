@@ -38,9 +38,9 @@ GND  --> Board GND
 VCC  --> Board 3.3v
 SCL  --> Board IO12 [Board SCK] (Fixed - do not change)
 SDA  --> Board IO11 [Board MOSI] (Fixed - do not change)
-RES  --> Board IO4 (Not fixed, just pick an IO pin)
-DC   --> Board IO5 (Not fixed, just pick an IO pin)
-CS   --> Board IO6 (Not fixed, just pick an IO pin)
+RES  --> Board IO5 (Not fixed, just pick an IO pin)
+DC   --> Board IO6 (Not fixed, just pick an IO pin)
+CS   --> Board IO7 (Not fixed, just pick an IO pin)
 BLK  --> Not connected
 '''
 
