@@ -12,15 +12,15 @@ I'm using:
 * [A very cheap 1.47" SPI display from Aliexpress](https://vi.aliexpress.com/item/1005003771379232.html)
 ![BPI-Leaf-S3 pinout](https://wiki.banana-pi.org/images/7/7e/Leaf-S3_board.png)
 
-# Display Shenanigans 
-## adafruit_rgb_display/st7789.py
+## Display Shenanigans 
+### adafruit_rgb_display/st7789.py
 The 'default' library st7789 driver (adafruit_rgb_display/st7789.py) doesn't offer much functionality and would require a lot of extra code to do things with but its pixel and rectangle methods do work! 
 The big plus is that it allows using more than one display at the same time.
-## https://github.com/adafruit/Adafruit_CircuitPython_ST7789
-This displayio st7789 offers a lot more functionality **but** doesn't allow the use of more than one SPI display as it gives a 
+### https://github.com/adafruit/Adafruit_CircuitPython_ST7789
+This displayio derived st7789 offers a lot more functionality **but** doesn't allow the use of more than one SPI display as it gives a 
 `RuntimeError: Too many display busses` 
 
 examples of both are up.
 
-# No License
+## No License
 This isn't really for a functional program or anything so feel free to do whatever you want with the code on here
