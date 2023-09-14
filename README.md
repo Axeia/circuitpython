@@ -24,6 +24,7 @@ examples of both are up.
 
 ## neopixel-wifi-*.py
 neopixel-wifi-controller.py is intended to be ran on a PC to send out a signal with color data (and you'll need a `pip install pyside6`)
+
 neopixel-wifi-listener.py is intended to be ran on a circuitpython board (one with wifi and a neopixel)
 
 ## No License
