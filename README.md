@@ -22,5 +22,9 @@ This displayio derived st7789 offers a lot more functionality **but** doesn't al
 
 examples of both are up.
 
+## neopixel-wifi-*.py
+neopixel-wifi-controller.py is intended to be ran on a PC to send out a signal with color data (and you'll need a `pip install pyside6`)
+neopixel-wifi-listener.py is intended to be ran on a circuitpython board (one with wifi and a neopixel)
+
 ## No License
 This isn't really for a functional program or anything so feel free to do whatever you want with the code on here
