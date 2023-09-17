@@ -2,6 +2,7 @@
 I wanted to send a color over serial to my BPI-Leaf-S3 to change its Neopixel color so I wrote pyside6_pc_app.py which sends a color through serial over USB.
 However, the Banana Pi Leaf S3 (BPI-LEAF-S3) I use only has a couple of USB end points. Quoting the [documentation](https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/how-many-usb-devices-can-i-have)
 > ESP32-S2 and ESP32-S3 effectively provide only 4 pairs, not counting pair 0. (There are 6 pairs, but the hardware allows only 4 IN endpoints active at a time, not including pair 0.) So if you wanted both CDC console and data, you would have to turn everything else off, including CIRCUITPY.
+
 Losing the CIRCUITPY drive sounds like a bad time to me, I'm not quite sure how you'd save a file without it.
 So I decided that losing the CDC console would be the lesser of two evils and I could somewhat replicate its functionality by outputting errors and print message to UART instead.
 Then if I take in the UART on a second board (a vanilla ESP32 dev board) connected to my PC and read that out through the serial monitor I still have some debugging options.
